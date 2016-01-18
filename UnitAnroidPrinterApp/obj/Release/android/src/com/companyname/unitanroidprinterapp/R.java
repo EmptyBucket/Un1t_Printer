@@ -12,7 +12,6 @@ public final class R {
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
-        public static final int monoandroidsplash=0x7f020001;
     }
     public static final class id {
         public static final int Address=0x7f060021;
@@ -107,10 +106,9 @@ public final class R {
         public static final int Wait=0x7f040018;
     }
     public static final class style {
-        public static final int Mono_Android_Theme_Splash=0x7f050000;
-        public static final int TextNormal=0x7f050001;
-        public static final int TextXLarge=0x7f050003;
-        public static final int TitleTextNormal=0x7f050002;
-        public static final int TitleTextXLarge=0x7f050004;
+        public static final int TextNormal=0x7f050000;
+        public static final int TextXLarge=0x7f050002;
+        public static final int TitleTextNormal=0x7f050001;
+        public static final int TitleTextXLarge=0x7f050003;
     }
 }

@@ -113,12 +113,23 @@
                     android:id="@+id/TitleEnterDeviceSerialKey"
                     style="@style/TitleTextNormal"
                     android:layout_weight="1" />
-                <EditText
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/EnterDeviceSerialKey"
-                    style="@style/TextNormal"
-                    android:layout_weight="1" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout7">
+                    <EditText
+                        android:id="@+id/EnterDeviceSerialKey"
+                        style="@style/TextNormal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                    <Button
+                        android:text="@string/ScanQr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/ScanQr" />
+                </LinearLayout>
                 <Button
                     android:text="@string/ButtonGetInformationDevice"
                     android:layout_width="match_parent"

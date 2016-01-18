@@ -59,9 +59,26 @@
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZXing.Net.Mobile.Core, Version=2.0.4.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.24\lib\MonoAndroid403\ZXing.Net.Mobile.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing.portable, Version=2.0.4.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.24\lib\MonoAndroid403\zxing.portable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZXingNetMobile, Version=2.0.4.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.24\lib\MonoAndroid403\ZXingNetMobile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompleteSaveActivity.cs" />
@@ -70,6 +87,8 @@
     <Compile Include="DataBase\LastModifyDateDB.cs" />
     <Compile Include="DataBase\PrinterEntryDB.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="QrScanner\IQrCodeScanningService.cs" />
+    <Compile Include="QrScanner\QrCodeScanningService.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataBase\SQLite.cs" />
@@ -89,6 +108,9 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout-large\Main.axml" />
+    <AndroidResource Include="Resources\layout-normal\Main.axml" />
+    <AndroidResource Include="Resources\layout-xlarge\Main.axml" />
     <AndroidResource Include="Resources\layout\CompleteSaveEntry.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
@@ -107,9 +129,6 @@
     <AndroidResource Include="Resources\layout-normal\Start.axml" />
     <AndroidResource Include="Resources\layout-large\Start.axml" />
     <AndroidResource Include="Resources\layout-xlarge\Start.axml" />
-    <AndroidResource Include="Resources\layout-normal\Main.axml" />
-    <AndroidResource Include="Resources\layout-large\Main.axml" />
-    <AndroidResource Include="Resources\layout-xlarge\Main.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

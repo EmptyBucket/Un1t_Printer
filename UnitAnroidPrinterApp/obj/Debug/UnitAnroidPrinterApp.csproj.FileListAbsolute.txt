@@ -22,9 +22,6 @@ C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPri
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-normal\start.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-large\start.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-xlarge\start.xml
-C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-normal\main.xml
-C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-large\main.xml
-C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-xlarge\main.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\values\strings.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\values\textstyle.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout\rowspinner.xml
@@ -32,6 +29,10 @@ C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPri
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout\authorization.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\values-ru\strings.xml
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\values-ru\textstyle.xml
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\drawable\icon.png
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\R.cs.flag
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\uploadflags.txt
-C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\drawable\icon.png
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\zxing.portable.dll
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\ZXingNetMobile.dll

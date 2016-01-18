@@ -189,6 +189,13 @@ namespace UnitAnroidPrinterApp
             Button buttonSaveInfo = FindViewById<Button>(Resource.Id.Save);
             buttonSaveInfo.Click += HandleClickSaveInfo;
             Button buttonChangeDownload = FindViewById<Button>(Resource.Id.DownloadButton);
+            Button buttonScanQr = FindViewById<Button>(Resource.Id.ScanQr);
+            buttonScanQr.Click += async (obj, state) => 
+            {
+                var scanner = new QrScanner.QrCodeScanningService();
+                var qrCode = await scanner.ScanAsync();
+                mSerialKey.Text = qrCode;
+            };
             buttonChangeDownload.Click += async (obj, state) =>
             {
                 HideKeyboard();

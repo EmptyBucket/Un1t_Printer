@@ -33,4 +33,5 @@
   <string name="ThereСhange">There is a change</string>
   <string name="CompleteDownloadData">Data download is complete</string>
   <string name="CompleteSendDataServer">The data is successfully sent to the server</string>
+  <string name="ScanQr">ScanQr</string>
 </resources>
