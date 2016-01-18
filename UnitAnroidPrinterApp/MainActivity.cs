@@ -11,6 +11,7 @@ using System.Threading;
 using System.Net;
 using Android.Net;
 using Android.Views.InputMethods;
+using UnitAnroidPrinterApp.QrScanner;
 
 namespace UnitAnroidPrinterApp
 {
@@ -48,6 +49,7 @@ namespace UnitAnroidPrinterApp
         private UnitAPIShellSaver m_unitAPIShellSaver;
         private UnitAPIShellUpdater m_unitAPIShellUpdater;
         private PrinterEntryDB m_deviceInfoDB;
+        private QrCodeScanningService mQrScanner { get; } = new QrCodeScanningService();
 
         private void ViewFillForm(PrinterEntryDB deviceEntry)
         {
@@ -192,8 +194,7 @@ namespace UnitAnroidPrinterApp
             Button buttonScanQr = FindViewById<Button>(Resource.Id.ScanQr);
             buttonScanQr.Click += async (obj, state) => 
             {
-                var scanner = new QrScanner.QrCodeScanningService();
-                var qrCode = await scanner.ScanAsync();
+                var qrCode = await mQrScanner.ScanAsync();
                 mSerialKey.Text = qrCode;
             };
             buttonChangeDownload.Click += async (obj, state) =>

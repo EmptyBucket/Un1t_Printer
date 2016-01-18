@@ -36,3 +36,6 @@ C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPri
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\ZXing.Net.Mobile.Core.dll
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\zxing.portable.dll
 C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\bin\Debug\ZXingNetMobile.dll
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-large\main.xml
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-normal\main.xml
+C:\Users\Alexey\Documents\Visual Studio 2015\Projects\Un1t_Printer\UnitAnroidPrinterApp\obj\Debug\res\layout-xlarge\main.xml

@@ -5,12 +5,12 @@ namespace UnitAnroidPrinterApp.QrScanner
 {
     public class QrCodeScanningService : IQrCodeScanningService
     {
+        public MobileBarcodeScanner mScanner { get; } = new MobileBarcodeScanner();
+
         public async Task<string> ScanAsync()
         {
-            var scanner = new MobileBarcodeScanner();
-            var scanResults = await scanner.Scan();
-
-            return scanResults.Text;
+            var scanResults = await mScanner.Scan();
+            return scanResults != null ? scanResults.Text : string.Empty;
         }
     }
 }
